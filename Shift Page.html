@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Shifts Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/17f63e1865.js" crossorigin="anonymous"></script>
+</head>
+<body onload="ShowAllShifts(); GetUserFullName()">
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="Home Page.html">Factory 22</a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="Employee Page.html">Employees</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Department Page.html">Departments</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Shift Page.html">Shifts</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Login Page.html">Log Out</a>
+    </li>
+  </ul>
+</nav>
+
+<div class="header">
+    <h1><i class="fa-regular fa-calendar-days"></i>  Shifts</h1>
+</div>
+
+<h3 id="helloToUser">Hello</h3><br>
+ 
+    <table border="1" id="tbl1" class="table" style="width: 50%;">
+        <tr>
+            <th style="width: 28%;">Date</th>
+            <th style="width: 10%;">Start Time</th>
+            <th style="width: 10%;">End Time</th>
+            <th  style="width: 20%;">Employees</th>
+        </tr>
+    </table>
+
+    <a href="Add Shift Page.html"><input type="button" value="Add Shift" class="button" style="margin-left:auto;margin-right:auto;display:block;margin-top:4%;margin-bottom:0%"></a>
+    <br>
+    
+    <footer>
+      <p><i class="fa-regular fa-copyright"></i>  Goren Erez</p>
+    </footer>
+
+</body>
+</html>
